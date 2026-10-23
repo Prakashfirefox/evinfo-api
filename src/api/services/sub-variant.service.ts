@@ -431,6 +431,7 @@ class SubVariantService {
           cover_image: true,
           colors: true,
           competitor_ids: true,
+          featured: true,
           model: {
             select: {
               id: true,
